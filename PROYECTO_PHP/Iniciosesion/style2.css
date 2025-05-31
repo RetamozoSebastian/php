@@ -1,0 +1,66 @@
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 20px;
+    }
+
+    .contenedor {
+      max-width: 800px;
+      margin: auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .btn-agregar {
+      background-color: #f57c00;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .tabla-usuarios {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      background-color: #ffffff;
+    }
+
+    .tabla-usuarios th,
+    .tabla-usuarios td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .tabla-usuarios th {
+      background-color: #efefef;
+    }
+
+    .acciones i {
+      margin-right: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .editar {
+      color: #0288d1;
+    }
+
+    .eliminar {
+      color: #d32f2f;
+    }
